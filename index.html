@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Responsive Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">our page</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#intro">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>WELCOME TO COSMETICA</h2>
+      <p>elevate your beauty game.</p>
+      <a href="#contact" class="btn-primary">Get Started</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="intro" class="section intro">
+      <div class="container">
+        <h2>COSMETICA</h2>
+        <p>"Unlock your glow."</p>
+      </div>
+    </section>
+    
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="service-grid">
+          <div class="service-item">
+            <h3>FOUNDATION</h3>
+            <p>Building a flawless base, one layer at a time.</p>
+          </div>
+          <div class="service-item">
+            <h3>LIPSTICKS</h3>
+            <p>Lipstick: where cuteness meets color.</p>
+          </div>
+          <div class="service-item">
+            <h3>EYE MAKEUP</h3>
+            <p>eyes speak volume.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <blockquote>
+            More than just makeup, it's confidence! Read what our clients love about their makeup looks!!
+        </blockquote>
+        <p>- COSMETICA</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="fullname">Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; COSMETICA.</p>
+  </footer>
+
+</body>
+</html>
